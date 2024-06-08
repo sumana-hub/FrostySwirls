@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		70A089F42C0A765C007842CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A089F32C0A765C007842CF /* AppDelegate.swift */; };
 		70A089F62C0A765C007842CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A089F52C0A765C007842CF /* SceneDelegate.swift */; };
-		70A089F82C0A765C007842CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A089F72C0A765C007842CF /* ViewController.swift */; };
+		70A089F82C0A765C007842CF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A089F72C0A765C007842CF /* HomeViewController.swift */; };
 		70A089FB2C0A765C007842CF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 70A089FA2C0A765C007842CF /* Base */; };
 		70A089FD2C0A765D007842CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A089FC2C0A765D007842CF /* Assets.xcassets */; };
 		70A08A002C0A765D007842CF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 70A089FF2C0A765D007842CF /* Base */; };
+		70A3942B2C13EDEA00B11EA8 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3942A2C13EDEA00B11EA8 /* DetailsViewController.swift */; };
+		70A3942D2C13EE2800B11EA8 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3942C2C13EE2800B11EA8 /* OrderViewController.swift */; };
+		70A3942F2C13EE6F00B11EA8 /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3942E2C13EE6F00B11EA8 /* RewardsViewController.swift */; };
+		70A394312C13EEAC00B11EA8 /* RecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A394302C13EEAC00B11EA8 /* RecommendationViewController.swift */; };
+		70A394332C13EED600B11EA8 /* OrderTrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A394322C13EED600B11EA8 /* OrderTrackViewController.swift */; };
+		70A394352C13EF0D00B11EA8 /* StoreLocatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A394342C13EF0D00B11EA8 /* StoreLocatorViewController.swift */; };
+		70A394372C13EF4800B11EA8 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A394362C13EF4800B11EA8 /* FeedbackViewController.swift */; };
+		70A394392C13EF8600B11EA8 /* SocialSharingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A394382C13EF8600B11EA8 /* SocialSharingViewController.swift */; };
+		70A3943B2C13F05200B11EA8 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3943A2C13F05200B11EA8 /* PaymentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		70A089F02C0A765C007842CF /* FrostySwirls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrostySwirls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A089F32C0A765C007842CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70A089F52C0A765C007842CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70A089F72C0A765C007842CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70A089F72C0A765C007842CF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		70A089FA2C0A765C007842CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70A089FC2C0A765D007842CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70A089FF2C0A765D007842CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70A08A012C0A765D007842CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A3942A2C13EDEA00B11EA8 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		70A3942C2C13EE2800B11EA8 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		70A3942E2C13EE6F00B11EA8 /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
+		70A394302C13EEAC00B11EA8 /* RecommendationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationViewController.swift; sourceTree = "<group>"; };
+		70A394322C13EED600B11EA8 /* OrderTrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTrackViewController.swift; sourceTree = "<group>"; };
+		70A394342C13EF0D00B11EA8 /* StoreLocatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreLocatorViewController.swift; sourceTree = "<group>"; };
+		70A394362C13EF4800B11EA8 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		70A394382C13EF8600B11EA8 /* SocialSharingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialSharingViewController.swift; sourceTree = "<group>"; };
+		70A3943A2C13F05200B11EA8 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +76,20 @@
 			children = (
 				70A089F32C0A765C007842CF /* AppDelegate.swift */,
 				70A089F52C0A765C007842CF /* SceneDelegate.swift */,
-				70A089F72C0A765C007842CF /* ViewController.swift */,
+				70A089F72C0A765C007842CF /* HomeViewController.swift */,
 				70A089F92C0A765C007842CF /* Main.storyboard */,
+				70A3943A2C13F05200B11EA8 /* PaymentViewController.swift */,
+				70A394322C13EED600B11EA8 /* OrderTrackViewController.swift */,
+				70A394302C13EEAC00B11EA8 /* RecommendationViewController.swift */,
+				70A3942C2C13EE2800B11EA8 /* OrderViewController.swift */,
 				70A089FC2C0A765D007842CF /* Assets.xcassets */,
 				70A089FE2C0A765D007842CF /* LaunchScreen.storyboard */,
 				70A08A012C0A765D007842CF /* Info.plist */,
+				70A3942A2C13EDEA00B11EA8 /* DetailsViewController.swift */,
+				70A3942E2C13EE6F00B11EA8 /* RewardsViewController.swift */,
+				70A394342C13EF0D00B11EA8 /* StoreLocatorViewController.swift */,
+				70A394362C13EF4800B11EA8 /* FeedbackViewController.swift */,
+				70A394382C13EF8600B11EA8 /* SocialSharingViewController.swift */,
 			);
 			path = FrostySwirls;
 			sourceTree = "<group>";
@@ -138,9 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70A089F82C0A765C007842CF /* ViewController.swift in Sources */,
+				70A089F82C0A765C007842CF /* HomeViewController.swift in Sources */,
+				70A394332C13EED600B11EA8 /* OrderTrackViewController.swift in Sources */,
+				70A394312C13EEAC00B11EA8 /* RecommendationViewController.swift in Sources */,
+				70A394372C13EF4800B11EA8 /* FeedbackViewController.swift in Sources */,
+				70A394392C13EF8600B11EA8 /* SocialSharingViewController.swift in Sources */,
+				70A394352C13EF0D00B11EA8 /* StoreLocatorViewController.swift in Sources */,
+				70A3942D2C13EE2800B11EA8 /* OrderViewController.swift in Sources */,
+				70A3943B2C13F05200B11EA8 /* PaymentViewController.swift in Sources */,
 				70A089F42C0A765C007842CF /* AppDelegate.swift in Sources */,
+				70A3942F2C13EE6F00B11EA8 /* RewardsViewController.swift in Sources */,
 				70A089F62C0A765C007842CF /* SceneDelegate.swift in Sources */,
+				70A3942B2C13EDEA00B11EA8 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
